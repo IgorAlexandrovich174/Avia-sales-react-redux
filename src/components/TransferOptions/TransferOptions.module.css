@@ -1,0 +1,50 @@
+.form-transfer {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px #0000001a;
+    padding: 20px 0;
+    color: #4A4A4A;
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background: #fff;
+    gap: 15px;
+}
+
+.label-options {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-options {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.check {
+    align-items: center;
+    border: 1px solid #9abbce;
+    border-radius: 2px;
+    display: inline-flex;
+    height: 20px;
+    justify-content: center;
+    margin-right: 10px;
+    width: 20px;
+}
+
+input:checked + .check {
+    background: url("/check.svg") no-repeat 50% 50%;
+    border-color: #2196F3;
+}

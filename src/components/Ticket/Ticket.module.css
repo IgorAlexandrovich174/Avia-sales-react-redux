@@ -1,0 +1,35 @@
+.ticket {
+    background: #fff;
+    box-shadow: 0 2px 8px #0000001a;
+    padding: 20px;
+    border-radius: 5px;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+}
+
+.header-ticket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.price-ticket {
+    color: #2196F3;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info-ticket {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.body-ticket {
+    padding-right: 30px;
+}
+
+.info-ticket-from-where {
+    color: #A0B0B9;
+}

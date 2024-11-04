@@ -1,0 +1,47 @@
+.form {
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    gap: 1px;
+    padding: 1px;
+    margin-bottom: 20px;
+    color: #4A4A4A;
+    background-color: #DFE5EC;
+
+}
+
+.input-filter {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.label-filter {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+.label-filter:hover{
+    cursor: pointer;
+}
+.label-filter:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.label-filter:last-child{
+    border-radius: 0 5px 5px 0;
+}
+.label-filter:has(input:checked){
+    background-color: #2196F3;
+    color: #fff;
+}

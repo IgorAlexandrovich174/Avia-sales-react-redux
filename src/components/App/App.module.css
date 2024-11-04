@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.page-container {
+    width: 960px;
+    background: #F3F7FA;
+    padding-bottom: 30px;
+}
