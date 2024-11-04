@@ -15,7 +15,7 @@ export default function TransferOptions() {
   );
 
   return (
-    <div>
+    <div className={styles["wrapper-form"]}>
       <form className={styles["form-transfer"]}>
         <fieldset className={styles["fieldset"]}>
           <legend style={{ marginBottom: 20 }}>Количество пересадок</legend>
